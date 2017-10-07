@@ -39,7 +39,7 @@ export class HomePage {
     private platform: Platform 
   ) {
     this.platform.ready().then(() => {
-      this.loadMap();
+      //this.loadMap();
       this.cameraPreview.startCamera(this.cameraPreviewOpts).then(
         (res) => {
           console.log(res);
